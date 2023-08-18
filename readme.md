@@ -1,5 +1,8 @@
 # BSA Certificate Updates
 
+<p align="center">
+  <img src="./assets/img/example.png" alt="Example.">
+</p>
 ## Calculations
 
 ```
