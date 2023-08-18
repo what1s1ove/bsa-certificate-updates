@@ -1,5 +1,7 @@
 # BSA Certificate Updates
 
+## Calculations
+
 ```
 GRADUATION_STATUS =
   IF studentGrade >= 3 AND < 3.80 THEN 'Satisfactorily'
@@ -15,38 +17,44 @@ PROJECT_PASS_STATUS =
 
 `{{ GRADUATION_STATUS }}` completed `{{ PROJECT_PASS_STATUS }}` JS course at Binary Studio Academy in January-April, 2023
 
-Examples:
+## Examples
 
-```
-studentGrade = 3.6
-GRADUATION_STATUS = Satisfactorily
+- ### Example 1
 
-isQualityCriteriaPassed = false
-PROJECT_PASS_STATUS = ''
-```
+  ```
+  studentGrade = 3.6
+  GRADUATION_STATUS = Satisfactorily
 
-*Satisfactorily* completed JS course at Binary Studio Academy in January-April, 2023
+  isQualityCriteriaPassed = false
+  PROJECT_PASS_STATUS = ''
+  ```
 
-___
+  > *Satisfactorily* completed JS course at Binary Studio Academy in January-April, 2023
 
-```
-studentGrade = 4.40
-GRADUATION_STATUS = Well
+  ___
 
-isQualityCriteriaPassed = true
-PROJECT_PASS_STATUS = 'and defended the final project on'
-```
+- ### Example 2
 
-*Well* completed *and defended the final project on* JS course at Binary Studio Academy in January-April, 2023
+  ```
+  studentGrade = 4.40
+  GRADUATION_STATUS = Well
 
-___
+  isQualityCriteriaPassed = true
+  PROJECT_PASS_STATUS = 'and defended the final project on'
+  ```
 
-```
-studentGrade = 4.80
-GRADUATION_STATUS = Well
+  > *Well* completed *and defended the final project on* JS course at Binary Studio Academy in January-April, 2023
 
-isQualityCriteriaPassed = true
-PROJECT_PASS_STATUS = 'and defended the final project on'
-```
+  ___
 
-*Successfully* completed *and defended the final project on* JS course at Binary Studio Academy in January-April, 2023
+- ### Example 3
+
+  ```
+  studentGrade = 4.80
+  GRADUATION_STATUS = Well
+
+  isQualityCriteriaPassed = true
+  PROJECT_PASS_STATUS = 'and defended the final project on'
+  ```
+
+  > *Successfully* completed *and defended the final project on* JS course at Binary Studio Academy in January-April, 2023
