@@ -21,6 +21,7 @@ PROJECT_PASS_STATUS =
 
 - ### Example 1
 
+  #### Payload
   ```
   studentGrade = 3.6
   GRADUATION_STATUS = Satisfactorily
@@ -29,12 +30,14 @@ PROJECT_PASS_STATUS =
   PROJECT_PASS_STATUS = ''
   ```
 
+  #### Result
   > *Satisfactorily* completed JS course at Binary Studio Academy in January-April, 2023
 
   ___
 
 - ### Example 2
 
+  #### Payload
   ```
   studentGrade = 4.40
   GRADUATION_STATUS = Well
@@ -43,12 +46,14 @@ PROJECT_PASS_STATUS =
   PROJECT_PASS_STATUS = 'and defended the final project on'
   ```
 
+  #### Result
   > *Well* completed *and defended the final project on* JS course at Binary Studio Academy in January-April, 2023
 
   ___
 
 - ### Example 3
 
+  #### Payload
   ```
   studentGrade = 4.80
   GRADUATION_STATUS = Well
@@ -57,4 +62,5 @@ PROJECT_PASS_STATUS =
   PROJECT_PASS_STATUS = 'and defended the final project on'
   ```
 
+  #### Result
   > *Successfully* completed *and defended the final project on* JS course at Binary Studio Academy in January-April, 2023
