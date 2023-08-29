@@ -8,9 +8,9 @@
 
 ```
 GRADUATION_STATUS =
-  IF studentGrade >= 3.00 AND < 3.80 THEN 'Satisfactorily'
-  OTHERWISE IF studentGrade >= 3.80 AND < 4.60 THEN 'Well'
-  OTHERWISE IF studentGrade >= 4.60 THEN 'Excellent'
+  IF studentGrade >= 0 AND < 3.79 THEN ''
+  OTHERWISE IF studentGrade >= 3.80 AND < 4.59 THEN 'High'
+  OTHERWISE IF studentGrade >= 4.60 THEN 'Highest'
 ```
 
 ```
@@ -19,7 +19,7 @@ PROJECT_PASS_STATUS =
   OTHERWISE ''
 ```
 
-`{{ GRADUATION_STATUS }}` completed `{{ PROJECT_PASS_STATUS }}` JS course at Binary Studio Academy in January-April, 2023
+for completing `{{ PROJECT_PASS_STATUS }}` the JS course at Binary Studio Academy With `{{ GRADUATION_STATUS }}` Honors in January-April 2023
 
 ## Examples
 
@@ -28,14 +28,14 @@ PROJECT_PASS_STATUS =
   #### Payload
   ```
   studentGrade = 3.60
-  GRADUATION_STATUS = Satisfactorily
+  GRADUATION_STATUS = ''
 
   isQualityCriteriaPassed = false
   PROJECT_PASS_STATUS = ''
   ```
 
   #### Result
-  > *Satisfactorily* completed JS course at Binary Studio Academy in January-April, 2023
+  > for completing the JS course at Binary Studio Academy With Honors in January-April 2023
 
 ___
 
@@ -44,14 +44,14 @@ ___
   #### Payload
   ```
   studentGrade = 4.40
-  GRADUATION_STATUS = Well
+  GRADUATION_STATUS = 'High'
 
   isQualityCriteriaPassed = true
   PROJECT_PASS_STATUS = 'and defended the final project on'
   ```
 
   #### Result
-  > *Well* completed *and defended the final project on* JS course at Binary Studio Academy in January-April, 2023
+  > for completing *and defended the final project on* the JS course at Binary Studio Academy With *High* Honors in January-April 2023
 
 ___
 
@@ -60,11 +60,11 @@ ___
   #### Payload
   ```
   studentGrade = 4.80
-  GRADUATION_STATUS = Well
+  GRADUATION_STATUS = 'Highest'
 
   isQualityCriteriaPassed = true
   PROJECT_PASS_STATUS = 'and defended the final project on'
   ```
 
   #### Result
-  > *Excellent* completed *and defended the final project on* JS course at Binary Studio Academy in January-April, 2023
+  > for completing *and defended the final project on* the JS course at Binary Studio Academy With *Highest* Honors in January-April 2023
