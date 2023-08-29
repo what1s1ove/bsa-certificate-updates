@@ -10,7 +10,7 @@
 GRADUATION_STATUS =
   IF studentGrade >= 3 AND < 3.80 THEN 'Satisfactorily'
   OTHERWISE IF studentGrade >= 3.80 AND < 4.60 THEN 'Well'
-  OTHERWISE IF studentGrade >= 4.60 THEN 'Successfully'
+  OTHERWISE IF studentGrade >= 4.60 THEN 'Excellent'
 ```
 
 ```
@@ -67,4 +67,4 @@ ___
   ```
 
   #### Result
-  > *Successfully* completed *and defended the final project on* JS course at Binary Studio Academy in January-April, 2023
+  > *Excellent* completed *and defended the final project on* JS course at Binary Studio Academy in January-April, 2023
