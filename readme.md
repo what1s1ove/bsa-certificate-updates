@@ -8,7 +8,7 @@
 
 ```
 GRADUATION_STATUS =
-  IF studentGrade >= 3 AND < 3.80 THEN 'Satisfactorily'
+  IF studentGrade >= 3.00 AND < 3.80 THEN 'Satisfactorily'
   OTHERWISE IF studentGrade >= 3.80 AND < 4.60 THEN 'Well'
   OTHERWISE IF studentGrade >= 4.60 THEN 'Excellent'
 ```
